@@ -13,6 +13,11 @@
 		A0F61C871CBB7A1400898416 /* CZPeper.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A0F61C851CBB7A1400898416 /* CZPeper.xcdatamodeld */; };
 		A0F61C891CBB7A1400898416 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0F61C881CBB7A1400898416 /* Assets.xcassets */; };
 		A0F61C8C1CBB7A1400898416 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0F61C8A1CBB7A1400898416 /* LaunchScreen.storyboard */; };
+		A0F61C941CBB7A9400898416 /* CZPaperWallScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F61C931CBB7A9400898416 /* CZPaperWallScroll.swift */; };
+		A0F61C961CBB7AA400898416 /* CZPaperNoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F61C951CBB7AA400898416 /* CZPaperNoteView.swift */; };
+		A0F61C981CBB7AB700898416 /* CZPaperPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F61C971CBB7AB700898416 /* CZPaperPageControl.swift */; };
+		A0F61C9A1CBB7CC700898416 /* CZPaperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F61C991CBB7CC700898416 /* CZPaperViewController.swift */; };
+		A0F61C9C1CBB87FE00898416 /* CZPaperCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F61C9B1CBB87FE00898416 /* CZPaperCategory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		A0F61C881CBB7A1400898416 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A0F61C8B1CBB7A1400898416 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A0F61C8D1CBB7A1400898416 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0F61C931CBB7A9400898416 /* CZPaperWallScroll.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CZPaperWallScroll.swift; sourceTree = "<group>"; };
+		A0F61C951CBB7AA400898416 /* CZPaperNoteView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CZPaperNoteView.swift; sourceTree = "<group>"; };
+		A0F61C971CBB7AB700898416 /* CZPaperPageControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CZPaperPageControl.swift; sourceTree = "<group>"; };
+		A0F61C991CBB7CC700898416 /* CZPaperViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CZPaperViewController.swift; sourceTree = "<group>"; };
+		A0F61C9B1CBB87FE00898416 /* CZPaperCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CZPaperCategory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,11 @@
 			children = (
 				A0F61C7E1CBB7A1400898416 /* AppDelegate.swift */,
 				A0F61C801CBB7A1400898416 /* ViewController.swift */,
+				A0F61C991CBB7CC700898416 /* CZPaperViewController.swift */,
+				A0F61C931CBB7A9400898416 /* CZPaperWallScroll.swift */,
+				A0F61C951CBB7AA400898416 /* CZPaperNoteView.swift */,
+				A0F61C971CBB7AB700898416 /* CZPaperPageControl.swift */,
+				A0F61C9B1CBB87FE00898416 /* CZPaperCategory.swift */,
 				A0F61C821CBB7A1400898416 /* Main.storyboard */,
 				A0F61C881CBB7A1400898416 /* Assets.xcassets */,
 				A0F61C8A1CBB7A1400898416 /* LaunchScreen.storyboard */,
@@ -138,7 +153,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0F61C981CBB7AB700898416 /* CZPaperPageControl.swift in Sources */,
+				A0F61C9A1CBB7CC700898416 /* CZPaperViewController.swift in Sources */,
+				A0F61C961CBB7AA400898416 /* CZPaperNoteView.swift in Sources */,
+				A0F61C9C1CBB87FE00898416 /* CZPaperCategory.swift in Sources */,
 				A0F61C871CBB7A1400898416 /* CZPeper.xcdatamodeld in Sources */,
+				A0F61C941CBB7A9400898416 /* CZPaperWallScroll.swift in Sources */,
 				A0F61C811CBB7A1400898416 /* ViewController.swift in Sources */,
 				A0F61C7F1CBB7A1400898416 /* AppDelegate.swift in Sources */,
 			);
